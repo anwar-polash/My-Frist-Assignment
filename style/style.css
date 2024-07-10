@@ -74,6 +74,7 @@ nav {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-family: "Azeret Mono", monospace;
+  opacity: 0.7;
 }
 .hero_button {
   display: flex;
@@ -116,6 +117,7 @@ nav {
   padding-top: 24px;
   padding-left: 47px;
   padding-right: 47px;
+  opacity: 0.7;
 }
 /* development frist area */
 .development_frist_area {
@@ -149,6 +151,7 @@ nav {
   font-weight: 400;
   line-height: 26px;
   padding-top: 16px;
+  opacity: 0.7;
 }
 
 .development_frist_btn {
@@ -191,6 +194,7 @@ nav {
   font-weight: 400;
   line-height: 26px;
   padding-top: 16px;
+  opacity: 0.7;
 }
 
 .development_second_btn {
@@ -235,6 +239,7 @@ nav {
   font-weight: 400;
   line-height: 26px;
   padding-top: 16px;
+  opacity: 0.7;
 }
 
 .development_third_btn {
@@ -269,6 +274,7 @@ nav {
   padding-left: 140px;
   padding-right: 140px;
   text-align: center;
+  opacity: 0.7;
 }
 .iframe_content {
   margin-top: 48px;
@@ -307,6 +313,7 @@ iframe {
   padding-right: 144px;
   text-align: center;
   margin-bottom: 48px;
+  opacity: 0.7;
 }
 
 .current_card {
@@ -350,6 +357,7 @@ iframe {
   color: rgb(13, 19, 33);
   padding-top: 8px;
   padding-bottom: 24px;
+  opacity: 0.7;
 }
 .card_html_ancor {
   color: rgb(13, 19, 33);
@@ -378,6 +386,7 @@ iframe {
   color: rgb(13, 19, 33);
   padding-top: 8px;
   padding-bottom: 24px;
+  opacity: 0.7;
 }
 .card_css_ancor {
   color: rgb(13, 19, 33);
@@ -407,6 +416,7 @@ iframe {
   color: rgb(13, 19, 33);
   padding-top: 8px;
   padding-bottom: 24px;
+  opacity: 0.7;
 }
 .card_javascript_ancor {
   color: rgb(13, 19, 33);
