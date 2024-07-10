@@ -255,10 +255,9 @@ nav {
 
 .inspiration_tittle {
   color: rgb(13, 19, 33);
-  font-weight: 32px;
-  font-weight: 800;
-  line-height: 37px;
   text-align: center;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .inspiration_description {
@@ -283,4 +282,135 @@ nav {
 }
 iframe {
   border-radius: 16px;
+}
+
+/* current section style */
+
+.current_target {
+  max-width: 1140px;
+  margin: 149px auto;
+}
+.current_tittle {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.current_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 24px;
+  padding-left: 144px;
+  padding-right: 144px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.current_card {
+  display: flex;
+  gap: 24px;
+}
+.current_card_html_container {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.current_card_css_container {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.current_card_java_container {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.html_img {
+  max-width: 56px;
+  height: 56px;
+}
+.html_img img {
+  width: 100%;
+}
+.card_html_tittle {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+  left: 8px;
+}
+.card_html_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.card_html_ancor {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.css_img {
+  max-width: 56px;
+  height: 56px;
+}
+.css_img img {
+  width: 100%;
+}
+.card_css_tittle {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+  left: 8px;
+}
+.card_css_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.card_css_ancor {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.javascript_img {
+  max-width: 56px;
+  height: 56px;
+  padding-left: 8px;
+}
+.javascript_img img {
+  width: 100%;
+}
+.card_javascript_tittle {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+  left: 8px;
+}
+.card_javascript_description {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.card_javascript_ancor {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
 }
