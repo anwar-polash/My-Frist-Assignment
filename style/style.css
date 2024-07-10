@@ -39,7 +39,7 @@ nav {
 
 /* hero section style */
 .hero {
-  background-image: url(../assets/Hero-bg.png);
+  background-image: url(../assets/hero_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
@@ -68,6 +68,7 @@ nav {
 .hero_description {
   text-align: center;
   padding-top: 24px;
+  line-height: 23px;
   padding-left: 73px;
   padding-right: 73px;
   color: rgb(13, 19, 33);
@@ -88,4 +89,160 @@ nav {
   border: none;
   padding: 21px 24px 21px 24px;
   font-family: "Azeret Mono", monospace;
+}
+
+/* development section style */
+
+.development {
+  max-width: 1140px;
+  margin: 74px auto;
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px;
+  border-radius: 16px;
+}
+
+.devolopment_tittle {
+  color: rgb(13, 19, 33);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.devolopment_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+  padding-top: 24px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+/* development frist area */
+.development_frist_area {
+  margin-top: 48px;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 99px;
+}
+.development_frist_content {
+  margin-top: 10.5px;
+  margin-bottom: 9.5px;
+}
+.devolpment_frist_tittle {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.devolpment_frist_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+}
+
+.development_frist_btn {
+  margin-top: 32px;
+  padding: 12px 20px 12px 20px;
+  background-color: 1px Inside rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+/* development second area */
+.development_second_area {
+  margin-top: 32px;
+  padding: 48px;
+  border-radius: 16px;
+
+  display: flex;
+  gap: 32px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.development_second_content {
+  margin-top: 10.5px;
+  margin-bottom: 9.5px;
+}
+.devolpment_second_tittle {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.devolpment_second_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+}
+
+.development_second_btn {
+  margin-top: 32px;
+  padding: 12px 20px 12px 20px;
+  background-color: 1px Inside rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+/* development third section  */
+.development_third_area {
+  margin-top: 32px;
+  padding: 48px;
+
+  border-radius: 16px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  gap: 126px;
+}
+
+.development_third_content {
+  margin-top: 10.5px;
+  margin-bottom: 9.5px;
+}
+.devolpment_third_tittle {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.devolpment_third_description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+}
+
+.development_third_btn {
+  margin-top: 32px;
+  padding: 12px 20px 12px 20px;
+  background-color: 1px Inside rgb(13, 19, 33);
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
 }
